@@ -16,7 +16,7 @@ Tabs you were actually using are left alone.
 
 ## Install (not in the Chrome Web Store yet)
 
-1. `git clone https://github.com/ovolovikk/redirect-tab-closer.git`
+1. `git clone https://github.com/ovolovikk/RedirectTabCloser.git`
 2. Open `yourbrowser://extensions` (`chrome://`, `edge://`, `brave://`, ...)
 3. Turn on **Developer mode**
 4. Click **Load unpacked** and pick the cloned folder
