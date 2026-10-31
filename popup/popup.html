@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="../icons/icon-48.png" alt="" width="28" height="28">
+    <h1>RedirectTabCloser</h1>
+    <label class="switch" title="Turn on / off">
+      <input type="checkbox" id="enabled">
+      <span></span>
+    </label>
+  </header>
+
+  <section class="stat">
+    <strong id="count">0</strong> tabs closed
+    <ul id="recent"></ul>
+  </section>
+
+  <button id="pause" class="site"></button>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
